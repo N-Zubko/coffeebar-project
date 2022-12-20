@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className="about container mt-5">
             <div className="row mt-2">
-                <div className="col-md-7">
+                <div className="col col-md-7">
                     <h2 className="d-inline">
                         LEARN MORE ABOUT US{' '}
                         <h2 className="d-inline p-2" aria-hidden="true">
@@ -26,59 +26,67 @@ const About = () => {
                     </p>
                     <div className="facts container mt-4">
                         <div className="row mt-3">
-                            <div className="col col-md-4 d-flex flex-column justify-content-center">
+                            <div className="col col-md-4 d-flex flex-column justify-content-center align-self-start">
                                 <FontAwesomeIcon
                                     icon={faCoffee}
                                     className="mug mb-2"
                                 />
 
                                 <h4 className="fact-heading">10+ People</h4>
-                                <p className="mt-3">
+                                <p className="mt-3 fact-description">
                                     Through True Rich Attended does no end it
                                     his mother since favourable.
                                 </p>
                             </div>
 
-                            <div className="col col-md-4 d-flex flex-column justify-content-center">
+                            <div className="col col-md-4 d-flex flex-column justify-content-center align-self-start">
                                 <FontAwesomeIcon
                                     icon="coffee"
                                     className="mug mb-2"
                                 />
                                 <h4 className="fact-heading">Since 2014</h4>
-                                <p className="mt-3">
+                                <p className="mt-3 fact-description">
                                     Through True Rich Attended does no end it
                                     his mother since favourable.
                                 </p>
                             </div>
 
-                            <div className="col col-md-4 d-flex flex-column justify-content-center">
+                            <div className="col col-md-4 d-flex flex-column justify-content-center align-self-start">
                                 <FontAwesomeIcon
-                                    icon="coffee"
+                                    icon={faCoffee}
                                     className="mug mb-2"
                                 />
-                                <h4 className="fact-heading">200K+ Clients</h4>
-                                <p className="mt-3">
+
+                                <h4 className="fact-heading">200K Clients</h4>
+                                <p className="mt-3 fact-description">
                                     Through True Rich Attended does no end it
                                     his mother since favourable.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <a href="#" className="button mt-4 mb-4">
+                    <a href="#" className="button mt-5 mb-4">
                         View Menu →
                     </a>
                 </div>
-                <div className="col-md-2">
-                    <img
-                        src={interior1}
-                        alt="cafe interior bar view"
-                        className="mt-5"
-                    />
+                <div className="col col-md-5 container">
+                    <div className="row">
+                        <div className="col col-md-6 mt-5 ">
+                            <img
+                                src={interior1}
+                                alt="cafe interior bar view"
+                                className="mt-5"
+                            />
+                        </div>
+                        <div className="col col-md-6">
+                            <img
+                                src={interior2}
+                                alt="cafe interior hall view"
+                            />
+                        </div>
+                    </div>
                 </div>
-                <div className="col-md-2">
-                    <img src={interior2} alt="cafe interior hall view" />
-                </div>
-            </div>{' '}
+            </div>
         </div>
     )
 }
