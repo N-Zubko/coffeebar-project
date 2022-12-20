@@ -32,6 +32,11 @@
         line-height: 24px;
     }
 
+    h4 {
+        color: var.$primary-white;
+        font-family: var.$font-heading;
+    }
+
     .visually-hidden {
         position: absolute;
         position: absolute !important;
@@ -67,6 +72,17 @@
     .fact-heading {
         color: var.$primary-blue;
         font-size: 24px;
-        text-align: center;
+        text-align: start;
+        font-family: var.$font-body;
+    }
+
+    .icon {
+        display: inline-block;
+        padding: 0px;
+        margin: 0px;
+
+        path {
+            color: var.$primary-beige;
+        }
     }
 }
