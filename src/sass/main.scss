@@ -11,7 +11,7 @@
 * {
     box-sizing: border-box;
     background-color: var.$bg;
-    color: var.$primary-white;
+    color: var.$primary-grey;
     font-family: var.$font-body;
     font-size: var.$font-size-text;
     margin: 0px;
@@ -22,6 +22,7 @@
         font-family: var.$font-heading;
         font-size: var.$font-size-heading;
         line-height: 30px;
+        color: var.$primary-white;
     }
 
     h2 {
