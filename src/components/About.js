@@ -16,13 +16,15 @@ const About = () => {
                     </h2>
 
                     <h3 className="top-heading mt-3 mb-3">
-                        We source sustainable &amp; line caught Foods
+                        We use top-quality &amp; ingredients and expertly
+                        crafted recipes
                     </h3>
                     <p>
-                        Edit this text to make it your own. To edit, simply
-                        click directly on the text to start adding your own
-                        words. You can move the text by dragging and dropping
-                        the text anywhere on the page.
+                        We pride ourselves on our excellent customer service and
+                        strive to make every visit a memorable one. Coffee
+                        Espresso Yourself has been serving the community for
+                        almost 10 years, offering a welcoming atmosphere and a
+                        variety of delicious food and drinks.
                     </p>
                     <div className="facts container mt-4">
                         <div className="row mt-3">
