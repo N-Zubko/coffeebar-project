@@ -1,0 +1,57 @@
+@use 'variables' as var;
+@use 'base';
+@use 'views';
+@use 'components';
+// Override default variables before the import
+// $body-bg: #000;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+* {
+    box-sizing: border-box;
+    background-color: var.$bg;
+    color: var.$primary-white;
+    font-family: var.$font-body;
+    font-size: var.$font-size-text;
+    margin: 0px;
+    padding: 0px;
+
+    h3 {
+        font-weight: bold;
+        font-family: var.$font-heading;
+        font-size: var.$font-size-heading;
+        line-height: 30px;
+    }
+
+    h2 {
+        color: var.$primary-beige;
+    }
+
+    .visually-hidden {
+        position: absolute;
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important;
+    }
+
+    .button {
+        background-color: var.$primary-beige;
+        color: var.$bg;
+        text-decoration: none;
+        width: 164px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            color: var.$primary-white;
+        }
+    }
+}
