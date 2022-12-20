@@ -30,6 +30,9 @@
         font-family: var.$font-heading;
         font-size: 16px;
         line-height: 24px;
+        .line {
+            color: var.$primary-white;
+        }
     }
 
     h4 {
