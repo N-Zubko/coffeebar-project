@@ -7,7 +7,7 @@ const HeaderHome = () => {
                 <div class="col-md-6 d-flex flex-column align-self-center ">
                     <h2 className="visually-hidden">Header</h2>
                     <h3 className="top-heading mt-2">
-                        We serve high quality foods of all kinds.
+                        We serve high quality foods of all kinds
                     </h3>
                     <span className="mt-2">
                         Edit this text to make it your own. To edit, simply
