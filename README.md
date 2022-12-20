@@ -1,4 +1,4 @@
-# Reactjs-bootstrap-sass boilerplate
+<!-- # Reactjs-bootstrap-sass boilerplate
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,4 +13,6 @@ Open [http://localhost:8080](http://localhost:8080) to view it in your browser.
 The port has been changed from the default one to 8080 by specifying it as an environment variable.
 
 The page will reload when you make changes.
-You may also see any lint errors in the console.
+You may also see any lint errors in the console. -->
+
+landing page of a cafe
