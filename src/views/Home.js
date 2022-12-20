@@ -1,7 +1,8 @@
 import NavBarTop from '../components/NavBarTop'
 import HeaderHome from '../components/HeaderHome'
 import About from '../components/About'
-import OfferGrid from '../components/Footer'
+import OfferGrid from '../components/OfferGrid'
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <HeaderHome />
             <About />
             <OfferGrid />
+            <Footer />
         </div>
     )
 }
