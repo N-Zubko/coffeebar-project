@@ -26,6 +26,9 @@
 
     h2 {
         color: var.$primary-beige;
+        font-family: var.$font-heading;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .visually-hidden {
@@ -53,5 +56,15 @@
         &:hover {
             color: var.$primary-white;
         }
+    }
+
+    .top-heading {
+        line-height: 68px;
+        font-size: 56px;
+    }
+
+    .fact-heading {
+        color: var.$primary-blue;
+        font-size: 24px;
     }
 }

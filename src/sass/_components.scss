@@ -44,10 +44,6 @@ header {
     margin: 0px;
     padding: 0px;
 
-    .top-heading {
-        line-height: 68px;
-        font-size: 56px;
-    }
     img {
         width: 622px;
         height: 683px;
@@ -60,5 +56,12 @@ header {
         width: 240px;
         height: 500px;
         object-fit: cover;
+    }
+
+    div {
+        .mug {
+            color: var.$primary-beige;
+            line-height: 32px;
+        }
     }
 }
