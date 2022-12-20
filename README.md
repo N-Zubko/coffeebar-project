@@ -16,3 +16,7 @@ The page will reload when you make changes.
 You may also see any lint errors in the console. -->
 
 landing page of a cafe
+
+Work in progress
+
+Based on this [free Figma prototype](https://frontend-skills.com/template/JbR09KH1a9F3F1xTPNUN)
