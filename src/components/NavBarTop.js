@@ -2,7 +2,7 @@ import logo from '../assets/logo.jpg'
 
 const NavBarTop = () => {
     return (
-        <div className="top-nav-bar d-flex flex-row justify-content-between align-items-center">
+        <div className="top-nav-bar d-flex flex-row justify-content-between align-items-center mt-3">
             <img src={logo} alt="logo of Espresso Yourself" className="logo" />
             <ul className="top-nav-bar">
                 <li>
