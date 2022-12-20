@@ -7,14 +7,13 @@ const About = () => {
     return (
         <div className="about container" id="about">
             <div className="row mt-2">
-                <div className="col col-md-7">
-                    <h2 className="d-inline">
-                        LEARN MORE ABOUT US{' '}
-                        <h2 className="d-inline p-2" aria-hidden="true">
-                            ⸺
-                        </h2>
+                <h2 className="d-inline">
+                    LEARN MORE ABOUT US{' '}
+                    <h2 className="d-inline p-2 line" aria-hidden="true">
+                        ⸺
                     </h2>
-
+                </h2>
+                <div className="col col-md-7 col-sm-10">
                     <h3 className="top-heading mt-3 mb-3">
                         We use top-quality &amp; expertly crafted recipes
                     </h3>
@@ -76,7 +75,7 @@ const About = () => {
                         View Menu →
                     </a>
                 </div>
-                <div className="col col-md-5 container">
+                <div className="col col-md-5 col-sm-12 container">
                     <div className="row">
                         <div className="col col-md-6 mt-5 ">
                             <img
