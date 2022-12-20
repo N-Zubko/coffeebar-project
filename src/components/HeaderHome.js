@@ -7,13 +7,14 @@ const HeaderHome = () => {
                 <div class="col-md-6 d-flex flex-column align-self-center ">
                     <h2 className="visually-hidden">Header</h2>
                     <h3 className="top-heading mt-2">
-                        We serve high quality foods of all kinds
+                        We serve a selection of coffee and cocktails
                     </h3>
                     <span className="mt-2">
-                        Edit this text to make it your own. To edit, simply
-                        click directly on the text to start adding your own
-                        words. You can move the text by dragging and dropping
-                        the text
+                        Coffee Expresso Yourself is a warm and welcoming space
+                        where you can enjoy a wide range of drinks and food.
+                        Whether you're looking for freshly brewed coffee and
+                        pastries to craft beers and cocktails, as well as small
+                        plates and sandwiches, we have something for everyone.
                     </span>
                     <a href="#" className="button mt-4 mb-4">
                         View Menu →
