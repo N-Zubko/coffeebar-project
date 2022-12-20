@@ -22,7 +22,6 @@
 .top-nav-bar {
     width: 100vw;
     margin-bottom: 3em;
-    margin-left: 5em;
     img {
         width: 12rem;
         height: 12rem;
@@ -58,10 +57,7 @@ header {
         object-fit: cover;
     }
 
-    div {
-        .mug {
-            color: var.$primary-beige;
-            line-height: 32px;
-        }
+    .fact-description {
+        text-align: center;
     }
 }
