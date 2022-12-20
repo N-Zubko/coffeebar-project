@@ -1,7 +1,7 @@
 import interior1 from '../assets/cafe-picture.png'
 import interior2 from '../assets/cafe-picture-2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTextLeft, faCoffee } from '@fortawesome/fontawesome-free-solid'
+import { faStarHalf } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
     return (
@@ -16,8 +16,7 @@ const About = () => {
                     </h2>
 
                     <h3 className="top-heading mt-3 mb-3">
-                        We use top-quality &amp; ingredients and expertly
-                        crafted recipes
+                        We use top-quality &amp; expertly crafted recipes
                     </h3>
                     <p>
                         We pride ourselves on our excellent customer service and
@@ -28,13 +27,14 @@ const About = () => {
                     </p>
                     <div className="facts container mt-4">
                         <div className="row mt-3">
-                            <div className="col col-md-4 d-flex flex-column justify-content-center align-self-start">
-                                <FontAwesomeIcon
-                                    icon={faCoffee}
-                                    className="mug mb-2"
-                                />
-
-                                <h4 className="fact-heading">10+ People</h4>
+                            <div className="col col-md-4 col-sm-10 d-flex flex-column">
+                                <h4 className="fact-heading">
+                                    <FontAwesomeIcon
+                                        icon={faStarHalf}
+                                        className="icon mb-1"
+                                    />
+                                    10+ People
+                                </h4>
                                 <p className="mt-3 fact-description">
                                     We are a small team dedicated to our
                                     customers and keeping high standard of
@@ -42,12 +42,14 @@ const About = () => {
                                 </p>
                             </div>
 
-                            <div className="col col-md-4 d-flex flex-column justify-content-center align-self-start">
-                                <FontAwesomeIcon
-                                    icon="coffee"
-                                    className="mug mb-2"
-                                />
-                                <h4 className="fact-heading">Since 2014</h4>
+                            <div className="col col-md-4 col-sm-10 d-flex flex-column">
+                                <h4 className="fact-heading">
+                                    <FontAwesomeIcon
+                                        icon={faStarHalf}
+                                        className="icon mb-1"
+                                    />
+                                    Since 2014
+                                </h4>
                                 <p className="mt-3 fact-description">
                                     Operating successfully since that year
                                     thanks to the dedicated team and beloved
@@ -55,16 +57,17 @@ const About = () => {
                                 </p>
                             </div>
 
-                            <div className="col col-md-4 d-flex flex-column justify-content-center align-self-start">
-                                <FontAwesomeIcon
-                                    icon={faCoffee}
-                                    className="mug mb-2"
-                                />
-
-                                <h4 className="fact-heading">200K Clients</h4>
+                            <div className="col col-md-4 col-sm-10 d-flex flex-column">
+                                <h4 className="fact-heading">
+                                    <FontAwesomeIcon
+                                        icon={faStarHalf}
+                                        className="icon mb-1"
+                                    />
+                                    200K+
+                                </h4>
                                 <p className="mt-3 fact-description">
-                                    Satisfied thanks to the top-quality service
-                                    and a welcoming atmosphere for all.
+                                    Clients satisfied thanks to the top-quality
+                                    service and a welcoming atmosphere for all.
                                 </p>
                             </div>
                         </div>
