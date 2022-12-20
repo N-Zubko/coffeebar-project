@@ -15,8 +15,8 @@ The port has been changed from the default one to 8080 by specifying it as an en
 The page will reload when you make changes.
 You may also see any lint errors in the console. -->
 
-landing page of a cafe
+landing page of a cafe bar
 
-Work in progress
+🚧 Work in progress 🚧
 
 Based on this [free Figma prototype](https://frontend-skills.com/template/JbR09KH1a9F3F1xTPNUN)
