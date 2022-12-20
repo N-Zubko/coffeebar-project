@@ -6,22 +6,22 @@ const NavBarTop = () => {
             <img src={logo} alt="logo of Espresso Yourself" className="logo" />
             <ul className="top-nav-bar">
                 <li>
-                    <a href="">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="">Menu</a>
+                    <a href="#menu">Menu</a>
                 </li>
                 <li>
-                    <a href="">About us</a>
+                    <a href="#about">About us</a>
                 </li>
                 <li>
-                    <a href="">Our Story</a>
+                    <a href="#story">Our Story</a>
                 </li>
                 <li>
-                    <a href="">Blog</a>
+                    <a href="#blog">Blog</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
