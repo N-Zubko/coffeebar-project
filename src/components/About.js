@@ -5,7 +5,7 @@ import { faTextLeft, faCoffee } from '@fortawesome/fontawesome-free-solid'
 
 const About = () => {
     return (
-        <div className="about container mt-5">
+        <div className="about container" id="about">
             <div className="row mt-2">
                 <div className="col col-md-7">
                     <h2 className="d-inline">
@@ -36,8 +36,9 @@ const About = () => {
 
                                 <h4 className="fact-heading">10+ People</h4>
                                 <p className="mt-3 fact-description">
-                                    Through True Rich Attended does no end it
-                                    his mother since favourable.
+                                    We are a small team dedicated to our
+                                    customers and keeping high standard of
+                                    operation.
                                 </p>
                             </div>
 
@@ -48,8 +49,9 @@ const About = () => {
                                 />
                                 <h4 className="fact-heading">Since 2014</h4>
                                 <p className="mt-3 fact-description">
-                                    Through True Rich Attended does no end it
-                                    his mother since favourable.
+                                    Operating successfully since that year
+                                    thanks to the dedicated team and beloved
+                                    clients.
                                 </p>
                             </div>
 
@@ -61,8 +63,8 @@ const About = () => {
 
                                 <h4 className="fact-heading">200K Clients</h4>
                                 <p className="mt-3 fact-description">
-                                    Through True Rich Attended does no end it
-                                    his mother since favourable.
+                                    Satisfied thanks to the top-quality service
+                                    and a welcoming atmosphere for all.
                                 </p>
                             </div>
                         </div>
