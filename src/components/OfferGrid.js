@@ -12,7 +12,7 @@ import {
 
 const OfferGrid = () => {
     return (
-        <div className="offer-grid container" id="about">
+        <div className="offer-grid container mt-5" id="about">
             <h2 className="d-inline">
                 WHAT WE ARE SERVING{' '}
                 <h2 className="d-inline p-2 line" aria-hidden="true">
