@@ -5,16 +5,6 @@ import fries from '../assets/fries.png'
 import sandwich from '../assets/sandwich.png'
 import soup from '../assets/noodle-soup.png'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-    faBurger,
-    faCoffee,
-    faBirthdayCake,
-    faMartiniGlass,
-    faDrumstickBite,
-    faCookieBite,
-} from '@fortawesome/free-solid-svg-icons'
-
 const SmallMenu = () => {
     return (
         <div className="small-menu container mt-5" id="menu">
@@ -46,7 +36,7 @@ const SmallMenu = () => {
                         src={coffee}
                         alt="coffee without cream and sugar"
                     />
-                    <div className="card-body">
+                    <div className="card-body d-flex flex-row align-items-baseline justify-content-between">
                         <h5 className="card-title">Drp Coffee</h5>
                         <span className="card-text">$8.99</span>
                     </div>
@@ -58,7 +48,7 @@ const SmallMenu = () => {
                         alt="chocolate cupcake with mint cream and a piece of chocolate"
                         id="card-image"
                     />
-                    <div className="card-body">
+                    <div className="card-body d-flex flex-row align-items-baseline justify-content-between">
                         <h5 className="card-title">Choco Cupcake</h5>
                         <span className="card-text">$8.99</span>
                     </div>
@@ -70,7 +60,7 @@ const SmallMenu = () => {
                         alt="chicken burger"
                         id="card-image"
                     />
-                    <div className="card-body">
+                    <div className="card-body d-flex flex-row align-items-baseline justify-content-between">
                         <h5 className="card-title">Chicken Burger</h5>
                         <span className="card-text">$8.99</span>
                     </div>
@@ -80,43 +70,45 @@ const SmallMenu = () => {
                 <div className="card" id="card">
                     <img
                         className="card-img-top menu-item"
-                        id="card-image"
-                        src={coffee}
-                        alt="coffee without cream and sugar"
+                        src={fries}
+                        alt="sweet potato fries with sauce"
+                        id="fries-image"
                     />
-                    <div className="card-body">
-                        <h5 className="card-title">Drp Coffee</h5>
+                    <div className="card-body d-flex flex-row align-items-baseline justify-content-between">
+                        <h5 className="card-title">French Fries</h5>
                         <span className="card-text">$8.99</span>
                     </div>
                 </div>
                 <div className="card">
                     <img
                         className="card-img-top menu-item"
-                        src={cupcake}
-                        alt="chocolate cupcake with mint cream and a piece of chocolate"
+                        src={sandwich}
+                        alt="sandwich with chicken and vegetables"
                         id="card-image"
                     />
-                    <div className="card-body">
-                        <h5 className="card-title">Choco Cupcake</h5>
-                        <span className="card-text">$8.99</span>
-                    </div>
-                </div>
-                <div className="card">
-                    <img
-                        className="card-img-top menu-item"
-                        src={burger}
-                        alt="chicken burger"
-                        id="card-image"
-                    />
-                    <div className="card-body">
+                    <div className="card-body d-flex flex-row align-items-baseline justify-content-between">
                         <h5 className="card-title">Chicken Burger</h5>
                         <span className="card-text">$8.99</span>
                     </div>
                 </div>
+                <div className="card">
+                    <img
+                        className="card-img-top menu-item"
+                        src={soup}
+                        alt="chinese soup with rice noodles and parsley"
+                        id="soup-image"
+                    />
+                    <div className="card-body d-flex flex-row align-items-baseline justify-content-between">
+                        <h5 className="card-title">Chinese Soup</h5>
+                        <span className="card-text">$8.99</span>
+                    </div>
+                </div>
             </div>
-            <a href="#" className="button mt-5 mb-4">
-                View Menu →
-            </a>
+            <div className="button-wrapper">
+                <a href="#menu" className="button mt-5 mb-4">
+                    View Menu →
+                </a>
+            </div>
         </div>
     )
 }
