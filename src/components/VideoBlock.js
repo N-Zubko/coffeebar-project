@@ -8,7 +8,6 @@ const VideoBlock = ({ changeVideoModalVisibility }) => {
     return (
         <div className="video-block container mt-5">
             <div className="row d-flex justify-content-between align-items-center">
-                {/* <div className="col col-md-6 col-sm-12"> */}
                 <figure className="col col-md-5 col-sm-12">
                     <q>
                         We have mastered the right balance of beans, water, and
