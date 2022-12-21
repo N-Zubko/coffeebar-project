@@ -170,10 +170,11 @@ header {
         justify-content: space-between;
         align-items: center;
         .caption-block {
+            display: flex;
+            flex-direction: column;
             p {
                 font-weight: bold;
                 color: var.$primary-white;
-                padding: 16px;
             }
         }
         .owner-image {
