@@ -4,7 +4,7 @@ const HeaderHome = () => {
     return (
         <header className="header container" id="home">
             <div className="row justify-content-md-between">
-                <div class="col-md-6 d-flex flex-column align-self-center ">
+                <div class="col-md-6 d-flex flex-column align-self-center mb-4">
                     <h2 className="visually-hidden">Header</h2>
                     <h3 className="top-heading mt-2">
                         We serve a selection of coffee and cocktails
@@ -30,7 +30,7 @@ const HeaderHome = () => {
                         <span>(631) 625-6181</span>
                     </section>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mt-1">
                     <img src={cafe} alt="coffee and bun from Cafe menu" />
                 </div>
             </div>
