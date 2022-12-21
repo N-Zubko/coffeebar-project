@@ -4,8 +4,8 @@ const VideoModal = ({ changeVideoModalVisibility }) => {
         <div className="modal-container">
             <div className="modal-content">
                 <iframe
-                    width="560"
-                    height="315"
+                    width="100%"
+                    height="100%"
                     src="https://www.youtube.com/embed/rLaVDQy0q8Y"
                     title="YouTube video player"
                     frameBorder="0"
