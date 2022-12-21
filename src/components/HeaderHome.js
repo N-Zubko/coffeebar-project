@@ -4,7 +4,7 @@ const HeaderHome = () => {
     return (
         <header className="header container" id="home">
             <div className="row justify-content-md-between">
-                <div class="col-md-6 d-flex flex-column align-self-center mb-4">
+                <div className="col-md-6 d-flex flex-column align-self-center mb-4">
                     <h2 className="visually-hidden">Header</h2>
                     <h3 className="top-heading mt-2">
                         We serve a selection of coffee and cocktails
@@ -16,7 +16,7 @@ const HeaderHome = () => {
                         pastries to craft beers and cocktails, as well as small
                         plates and sandwiches, we have something for everyone.
                     </span>
-                    <a href="#" className="button mt-4 mb-4">
+                    <a href="#menu" className="button mt-4 mb-4">
                         View Menu →
                     </a>
                     <section className="short-info">
@@ -30,7 +30,7 @@ const HeaderHome = () => {
                         <span>(631) 625-6181</span>
                     </section>
                 </div>
-                <div class="col-md-6 mt-1">
+                <div className="col-md-6 mt-1">
                     <img src={cafe} alt="coffee and bun from Cafe menu" />
                 </div>
             </div>
