@@ -6,9 +6,9 @@ import { faCirclePlay } from '@fortawesome/free-solid-svg-icons'
 
 const VideoBlock = ({ changeVideoModalVisibility }) => {
     return (
-        <div className="video-block container mt-5">
-            <div className="row d-flex justify-content-between align-items-center">
-                <figure className="col col-md-5 col-sm-12">
+        <div className="container video-block mt-5">
+            <div className="row d-flex justify-content-around align-items-center">
+                <section className="col col-md-7 col-sm-10">
                     <q>
                         We have mastered the right balance of beans, water, and
                         brewing time to guarantee delight to the senses.
@@ -27,8 +27,8 @@ const VideoBlock = ({ changeVideoModalVisibility }) => {
                         </div>
                     </figcaption>
                     <hr />
-                </figure>
-                <div className="col col-md-6 col-sm-12">
+                </section>
+                <div className="col col-sm-12 col-md-5">
                     <img
                         src={coffeeMachine}
                         alt="coffee machine thumbnail"
