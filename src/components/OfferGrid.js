@@ -1,5 +1,3 @@
-import interior1 from '../assets/cafe-picture.png'
-import interior2 from '../assets/cafe-picture-2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faBurger,
