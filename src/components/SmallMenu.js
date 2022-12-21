@@ -76,7 +76,7 @@ const SmallMenu = () => {
                     </div>
                 </div>
             </div>
-            <div className="card-deck mt-5" id="menu-group">
+            <div className="card-deck" id="menu-group">
                 <div className="card" id="card">
                     <img
                         className="card-img-top menu-item"
