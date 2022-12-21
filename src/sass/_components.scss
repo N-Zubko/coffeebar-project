@@ -1,5 +1,25 @@
 @use 'variables' as var;
 
+//     @media (min-width: 576px) {
+//         column-count: 1;
+//     }
+
+//     // Medium devices (tablets, 768px and up)
+//     @media (min-width: 768px) {
+//         column-count: 2;
+//     }
+
+//     // Large devices (desktops, 992px and up)
+//     @media (min-width: 992px) {
+//         column-count: 3;
+//     }
+
+//     // X-Large devices (large desktops, 1200px and up)
+//     @media (min-width: 1200px) {
+//         column-count: 4;
+//     }
+// }
+
 .modal-container {
     position: fixed;
     padding-top: 100px; /* Location of the box */
@@ -90,33 +110,77 @@ header {
             width: 410px;
             border: none;
             background-color: var.$bg-dark;
+            font-weight: bold;
+            font-family: var.$font-heading;
+            h5 {
+                font-weight: bold;
+                font-family: var.$font-heading;
+            }
             #card-image {
                 align-self: center;
                 width: 405px;
                 aspect-ratio: 405/271;
                 object-fit: cover;
             }
+            #soup-image {
+                align-self: center;
+                width: 405px;
+                aspect-ratio: 405/271;
+                object-fit: cover;
+                object-position: 0 85%;
+            }
+            #fries-image {
+                align-self: center;
+                width: 405px;
+                aspect-ratio: 405/271;
+                object-fit: cover;
+                object-position: 0 85%;
+            }
         }
     }
 
-    // .card-columns {
-    //     @media (min-width: 576px) {
-    //         column-count: 1;
-    //     }
+    .button-wrapper {
+        display: flex;
+        justify-content: center;
+        @media (max-width: 576px) {
+            justify-content: flex-start;
+        }
+    }
+}
 
-    //     // Medium devices (tablets, 768px and up)
-    //     @media (min-width: 768px) {
-    //         column-count: 2;
-    //     }
+.video-block {
+    q {
+        font-size: 32px;
+        font-family: var.$font-heading;
+        color: var.$primary-white;
+        margin: 16px;
+    }
 
-    //     // Large devices (desktops, 992px and up)
-    //     @media (min-width: 992px) {
-    //         column-count: 3;
-    //     }
-
-    //     // X-Large devices (large desktops, 1200px and up)
-    //     @media (min-width: 1200px) {
-    //         column-count: 4;
-    //     }
-    // }
+    img {
+        width: 100%;
+        object-fit: cover;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    figcaption {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+        align-items: center;
+        .caption-block {
+            p {
+                font-weight: bold;
+                color: var.$primary-white;
+                padding: 16px;
+            }
+        }
+        .owner-image {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            object-position: 50% 20%;
+        }
+    }
 }
