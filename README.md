@@ -21,7 +21,7 @@ You may also see any lint errors in the console. -->
 
 ## Project details:
 
-1. Multipage responsive website of a cafe bar with an age validation to enter the website (to be added) and clickable modal windows
+1. Multipage aesthetically pleasing and responsive website of a cafe bar with an age validation to enter the website (to be added) and clickable modal windows
 2. Based on this [free Figma prototype](https://frontend-skills.com/template/JbR09KH1a9F3F1xTPNUN) to practice my layout building skills
 3. Contrast colours, semantic tags and aria roles used for better accessibility
 4. Texts written by Nadia with a help from ChatGPT
