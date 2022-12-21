@@ -8,7 +8,7 @@ const VideoBlock = ({ changeVideoModalVisibility }) => {
     return (
         <div className="container video-block mt-5">
             <div className="row d-flex justify-content-around align-items-center">
-                <section className="col col-md-7 col-sm-10">
+                <section className="col col-md-5 col-sm-10">
                     <q>
                         We have mastered the right balance of beans, water, and
                         brewing time to guarantee delight to the senses.
@@ -28,7 +28,7 @@ const VideoBlock = ({ changeVideoModalVisibility }) => {
                     </figcaption>
                     <hr />
                 </section>
-                <div className="col col-sm-12 col-md-5">
+                <div className="col col-sm-12 col-md-7">
                     <img
                         src={coffeeMachine}
                         alt="coffee machine thumbnail"
