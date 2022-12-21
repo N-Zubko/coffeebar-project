@@ -32,7 +32,7 @@ const Home = () => {
                     changeVideoModalVisibility={changeVideoModalVisibility}
                 />
             )}
-            <Footer />
+          {/* <Footer /> */}
         </div>
     )
 }
