@@ -71,7 +71,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <a href="#" className="button mt-5 mb-4">
+                    <a href="#menu" className="button mt-5 mb-4">
                         View Menu →
                     </a>
                 </div>
