@@ -15,8 +15,16 @@ The port has been changed from the default one to 8080 by specifying it as an en
 The page will reload when you make changes.
 You may also see any lint errors in the console. -->
 
-landing page of a cafe bar
+## website of a cafe bar
 
-🚧 Work in progress 🚧
+🚧 Work in progress 🚧 More pages to be added
 
-Based on this [free Figma prototype](https://frontend-skills.com/template/JbR09KH1a9F3F1xTPNUN)
+## Project details:
+
+1. Multipage responsive website of a cafe bar with an age validation to enter the website (to be added) and clickable modal windows
+2. Based on this [free Figma prototype](https://frontend-skills.com/template/JbR09KH1a9F3F1xTPNUN) to practice my layout building skills
+3. Contrast colours, semantic tags and aria roles used for better accessibility
+4. Texts written by Nadia with a help from ChatGPT
+
+## Technology:
+HTML, Sass, React.js, Bootstrap, FontAwesome icons
