@@ -81,6 +81,10 @@ header {
         flex-wrap: wrap;
         width: 100%;
         justify-content: space-between;
+        margin-top: 32px;
+        @media (min-width: 576px) {
+            margin-top: 0px;
+        }
 
         .card {
             width: 410px;
